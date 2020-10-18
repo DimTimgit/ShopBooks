@@ -5,7 +5,7 @@ import BookCard from '../containers/BookCard';
 import { Card } from 'semantic-ui-react';
 import Filter from '../containers/Filter';
 import Menu from '../containers/Menu';
-import Cart from '../components/Cart';
+
 
 
 
@@ -22,8 +22,7 @@ setBooks(data);
     return (
       <Container>
         <Menu />
-        <Route patch
-        <Button><Cart /></Button>
+    
       <Filter />
       
       <Card.Group itemsPerRow={4}>
